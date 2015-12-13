@@ -3,7 +3,7 @@
 
 // config
 var html = true;
-var file = "note" + Date();
+var file = "note" + Date.now();
 var data = "";
 
 var dumpNote = function(note) {
